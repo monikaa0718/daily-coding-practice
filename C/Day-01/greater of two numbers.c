@@ -7,8 +7,12 @@ int main(){
     {
         printf("a is greater");
     }
-    else
+    else if (b>a)
     {
         printf("b is greater");
+    }
+    else
+    {
+        printf("Both are equal");
     }
 }
